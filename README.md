@@ -61,4 +61,4 @@ Configuración inicial: Plano, Cubo y Esfera. El plano, y la cámara se ubican e
 **Objetivo:** Crear un objeto afectado por la gravedad pero que carece de solidez al impactar con otros.
 - **Resolución:** Esfera con `Rigidbody` estándar y su `Collider` con `Is Trigger` activado.
 - **Prueba de ejecución:** En la siguiente animación se observa cómo la esfera cae infinitamente traspasando el cubo y el plano como si no existieran, debido a su propiedad Trigger.
-![Prueba Ejercicio 9](https://github.com/guillrl1/IIII-Practica-3-Fisicas/blob/main/gifs-parte1/08.gif)
+![Prueba Ejercicio 9](https://github.com/guillrl1/IIII-Practica-3-Fisicas/blob/main/gifs-parte1/09.gif)
