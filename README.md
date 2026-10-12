@@ -48,8 +48,8 @@ Configuración inicial: Plano, Cubo y Esfera. El plano, y la cámara se ubican e
 **Objetivo:** Aplicar materiales físicos para añadir fricción a un objeto, manteniendo el plano como objeto físico en caída.
 - **Resolución:** Creación de un `Physic Material` con valores de fricción altos, asignado al `Collider` de la Esfera. Todos los objetos tienen `Rigidbody`.
 - **Prueba de ejecución:** En la siguiente animación se observa a los objetos caer al vacío de nuevo, sin llegar a apreciarse la fricción al no haber una base estable.
-[Prueba Ejercicio 7](https://github.com/guillrl1/IIII-Practica-3-Fisicas/blob/main/gifs-parte1/07_1.png)
-![Prueba Ejercicio 7](https://github.com/guillrl1/IIII-Practica-3-Fisicas/blob/main/gifs-parte1/07_2.gif)
+![Prueba Ejercicio 7](https://github.com/guillrl1/IIII-Practica-3-Fisicas/blob/main/gifs-parte1/07_1.png)
+![Prueba Ejercicio 7](https://github.com/guillrl1/IIII-Practica-3-Fisicas/blob/main/gifs-parte1/07.gif)
 
 ### Ejercicio 8: Triggers Cinemáticos
 **Objetivo:** Crear un objeto "fantasma" que detecte colisiones (vía código) sin generar respuesta física ni caer por gravedad.
