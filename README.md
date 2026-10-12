@@ -6,19 +6,19 @@ Este repositorio contiene la resolución de los ejercicios prácticos en Unity c
 
 A continuación se detallan los ejercicios resueltos basados en diferentes situaciones físicas con un Plano, un Cubo y una Esfera.
 Configuración inicial: Plano, Cubo y Esfera. El plano, y la cámara se ubican en las posiciones por defecto. El cubo se ubica con y=0.5. La esfera con el Transform en la imagen
-[Prueba](https://github.com/guillrl1/IIII-Practica-3-Fisicas/blob/main/gifs-parte1/01.png)
+![Prueba](https://github.com/guillrl1/IIII-Practica-3-Fisicas/blob/main/gifs-parte1/01.png)
 
 ### Ejercicio 1: Configuración Física Básica
 **Objetivo:** Configurar la escena para que solo el cubo sea afectado por la gravedad y la física, mientras que el plano y la esfera permanecen estáticos.
 - **Resolución:** Asignación de componentes `Collider` a todos los objetos. Añadido el componente `Rigidbody` únicamente al Cubo.
 - **Prueba de ejecución:** En la siguiente animación se observa cómo el cubo cae hasta chocar con el plano, mientras la esfera se mantiene flotando inmóvil.
-[Prueba](https://github.com/guillrl1/IIII-Practica-3-Fisicas/blob/main/gifs-parte1/01.png)
+![Prueba](https://github.com/guillrl1/IIII-Practica-3-Fisicas/blob/main/gifs-parte1/01.png)
 
 ### Ejercicio 2: Gravedad en Múltiples Objetos
 **Objetivo:** Hacer que tanto el cubo como la esfera reaccionen a la física y colisionen entre sí.
 - **Resolución:** Uso del componente `Rigidbody` tanto en el Cubo como en la Esfera. El plano se mantiene solo con `Collider`.
 - **Prueba de ejecución:** En la siguiente animación se observa cómo la esfera cae sobre el cubo, y ambos son detenidos por el plano.
-![Prueba Ejercicio 2]([ruta/a/tu/gif2.gif](https://github.com/guillrl1/IIII-Practica-3-Fisicas/blob/main/gifs-parte1/02.gif))
+![Prueba Ejercicio 2]([ruta/a/tu/gif2.gif](https://github.com/guillrl1/IIII-Practica-3-Fisicas/blob/main/gifs-parte1/02.gif)
 
 ### Ejercicio 3: Objetos Cinemáticos
 **Objetivo:** Configurar la esfera para que participe en las físicas (deteniendo otros objetos) pero sin verse afectada por la gravedad o fuerzas.
