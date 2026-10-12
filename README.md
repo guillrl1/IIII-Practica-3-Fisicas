@@ -18,7 +18,7 @@ Configuración inicial: Plano, Cubo y Esfera. El plano, y la cámara se ubican e
 **Objetivo:** Hacer que tanto el cubo como la esfera reaccionen a la física y colisionen entre sí.
 - **Resolución:** Uso del componente `Rigidbody` tanto en el Cubo como en la Esfera. El plano se mantiene solo con `Collider`.
 - **Prueba de ejecución:** En la siguiente animación se observa cómo la esfera cae sobre el cubo, y ambos son detenidos por el plano.
-![Prueba Ejercicio 2]([ruta/a/tu/gif2.gif](https://github.com/guillrl1/IIII-Practica-3-Fisicas/blob/main/gifs-parte1/02.gif)
+![Prueba Ejercicio 2](https://github.com/guillrl1/IIII-Practica-3-Fisicas/blob/main/gifs-parte1/02.gif)
 
 ### Ejercicio 3: Objetos Cinemáticos
 **Objetivo:** Configurar la esfera para que participe en las físicas (deteniendo otros objetos) pero sin verse afectada por la gravedad o fuerzas.
