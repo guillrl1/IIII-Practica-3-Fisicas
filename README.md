@@ -1,4 +1,4 @@
-# Ejercicio Prácticas Introducción a Físicas 3D 2026
+# Ejercicio Prácticas Introducción a Físicas 3D 
 
 Repositorio central de las prácticas de Introducción a Físicas 3D en Unity. Este proyecto recopila una serie de ejercicios prácticos diseñados para comprender y dominar el motor de físicas de Unity (Nvidia PhysX), tanto desde la configuración de componentes en el editor como desde la programación en C#.
 
